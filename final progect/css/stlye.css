@@ -1,0 +1,687 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+   background-color: #E2E2FF;
+   
+}
+
+header{
+    width: 100%;
+    height: 118px;
+    display: flex;
+    flex-direction: column;
+}
+.header1
+{
+   margin-top: 0px;
+   width: 100%;
+    height: 70px;
+    background-color: #0F0FBB;
+    
+}
+.header1 h2 a{
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #c4c4c4c4;
+}
+.header1 h2 a:hover{
+    color: rgb(245, 234, 198);
+}
+h1
+{
+    position: absolute;
+    width: 40x;
+    height: 40px;
+    left: 75px;
+    top: 11px;
+    background-image: url(../images/logo.png);
+}
+.header2{
+   background-color: #0D0DFF;
+   margin-bottom:  0px;
+   width: 100%;
+    height: 48px;
+    
+    display: flex;
+    flex-direction: row;
+    color: #FEFEFE;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+   
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+
+}
+.signIn{
+    width: 88px;
+height: 18px;
+    font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #C4C4C4;
+}
+
+.header2 h2{
+    color: #EEEEEE;
+    background-color: #0D0DFF;
+}
+.header2 h2:hover{
+    color: rgb(239, 234, 139);
+}
+
+@media (max-width:1024px){
+    .header2{
+        font-size: 14px;}
+        
+}
+
+@media (max-width: 840px){
+    .header1 h2 a{
+       visibility: hidden;
+        }
+
+     .header2{
+            visibility: hidden;
+        }
+    .cart{
+            visibility: hidden;
+        }
+    .dots{
+            visibility: visible;
+        }
+       
+       
+
+}
+@media (max-width: 670px){
+    .search-feed{
+        visibility: hidden;
+    
+    }
+    .product{
+        width: 10px;
+       height: 290px;
+    }
+    
+}
+
+.line {
+
+width: 48px;
+height: 0px;
+
+top: 69px;
+
+border: 3px solid #E2E2FF;
+transform: rotate(90deg);
+}
+.search{
+    position: absolute;
+width: 36px;
+height: 36px;
+right: 10px;
+top: 1px;
+background:transparent;
+}
+.search-feed{
+position: absolute;
+width: 50%;
+height: 40px;
+left: 25%;
+top: 11px;
+
+background: rgba(255, 255, 255, 0.66);
+border-radius: 8px;}
+.header1 h2 a{
+    position: absolute;
+width: 88px;
+height: 18px;
+right: 100px;
+top: 20px;
+background-color: #0F0FBB;
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #C4C4C4;
+}
+.cart{
+    background-color: #0F0FBB;
+    position: absolute;
+width: 40px;
+height: 40px;
+right: 24px;
+top: 7px;
+color: #C4C4C4;
+}
+.dots {
+    
+    
+    
+width: 40px;
+float: right;
+height: 40px;
+right: 24px;
+top: 7px;
+color: white;
+visibility: hidden;
+}
+
+.models img{
+    width: 90%;
+    
+margin: 2% 5% ;
+
+}
+.product{
+
+margin-top: 20px;
+width: 250px;
+height: 310px;
+margin-right: 20px;
+
+
+background: #2020AA;
+border-radius: 10px;
+}
+
+.productPhoto {
+    
+    width: 180px;
+height: 231px;
+overflow: hidden;
+margin: 0 auto;
+padding-top: 10px;
+background: transparent;
+border-radius: 9px;
+}
+.productPhoto:hover{
+    width: 200px;
+    height: 240px;
+   
+ 
+}
+.productPhoto img{
+    width: 100%;
+    height: 100%;
+   margin-top: 10px;
+   border-radius: 9px;
+}
+.ProductName{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    width: 200px;
+    font-size: 22px;
+    line-height: 23px;
+    flood-color: #101099aa;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+background: transparent;
+color: #DDDDDD;
+
+}
+.ProductPrice{
+    font-family: serif;
+font-style: normal;
+font-weight: 400;
+width: 200px;
+font-size: 18px;
+line-height: 23px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+background: #2020AA;
+color: #AAAAAA;
+}
+.ProductOldPrice{    font-family: serif;
+    font-style: normal;
+    font-weight: 400;
+    width: 200px;
+    font-size: 16px;
+    line-height: 23px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #2020AA;
+    color: rgba(179, 41, 41, 0.7);
+    text-decoration: line-through;
+    }
+.products{
+    margin: 15px 5%;
+ 
+display: flex;
+flex-direction: row;
+overflow-x: auto;
+
+}
+.products::-webkit-scrollbar{
+    width: 0;
+}
+footer{
+    background-color: #101099aa;
+    margin-bottom: 0;
+    width: 100%;
+    height: 120px;
+    float: inline-end;
+   
+}
+.footer{
+   padding-top: 12px;
+    background-color: transparent;
+    width: 100%;
+    display:flex;
+flex-direction: row;
+
+
+
+}
+.footer div{
+    background-color: transparent;
+   
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.footer div h3{
+    background-color: transparent;
+    color: #fefefedd;
+
+}
+.footer div h4{
+    background-color: transparent;
+    color: #fefefe77;
+    
+}
+.footer div h4:hover{
+    color: #fefefedd;
+}
+footer p{
+    
+    background-color: transparent;
+    margin-bottom: 2px;
+   float: right;
+    color:  #fefefe99;
+    margin-right: 25px;
+}
+
+.popularProducts
+{
+    margin-top: 100px;
+    width: 286px;
+height: 27px;
+margin-left: 5%;
+    font-family: 'Futura';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 27px;
+
+
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+
+.productsCategory{
+    margin: 15px 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.mainproduct{
+    box-sizing: border-box;
+
+  min-width: 500px;
+    width: 550px;
+    height: 550px;;
+    margin:30px 4% ;
+    
+    
+    background: #2020AA;
+    border-width: 2px 2px 4px 2px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.67);
+    border-radius: 28px;
+}
+@media (max-width: 840px){
+    .productSection {
+       
+        flex-direction: column;
+    }
+  
+}
+.mainproduct img{
+    width:80%;
+   height: 80%;
+   overflow: hidden;
+   margin: 10%;
+   border-radius: 28px;
+}
+.productSection {
+    display: flex;
+    flex-direction: row;
+}
+.info{ 
+    display: flex;
+   flex-direction: column;
+    align-items:flex-start;
+    width: 550px;
+    height: 550px;
+    margin: 0 4% ;
+    margin-top: 40px;
+}
+.Name{
+    font-family: 'Fredoka';
+font-style: normal;
+font-weight: 500;
+font-size: 50px;
+line-height: 60px;
+
+
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+.priceInfo{
+    margin-top: 16px;
+    font-family: serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 57px;
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+}
+.oldPriceInfo{
+    font-family: 'Gill Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 37px;
+display: flex;
+align-items: center;
+text-decoration-line: line-through;
+
+color: rgba(179, 41, 41, 0.7);
+}
+.buy{
+    margin-top: 112px;
+    background: rgba(85, 17, 230, 0.84);
+    border-radius: 12px;
+    width: 191px;
+height: 52px;
+font-family: 'Gill Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 32px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+color: #000000;
+
+border: 0.5px solid #000000;
+}
+.buy:hover{
+    background: rgba(81, 0, 255, 0.923);
+    font-size: 30px;
+}
+.signInForm{
+    margin-top: 5%;
+    margin-left: 33%;
+    width: 33%;
+    height: 462px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.email{
+    width: 100%;
+    min-width: 250px;
+    max-width: 800px;
+height: 58px;
+margin-top: 26px;
+
+background: rgba(255, 255, 255, 0.25);
+border-width: 1px 1px 2.5px 1px;
+border-style: solid;
+border-color: rgba(0, 0, 0, 0.7);
+border-radius: 10px;
+font-family: 'Gill Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 32px;
+display: flex;
+align-items: center;
+}
+.signInForm button{
+    margin-top: 38px;
+    width: 33%;
+    height: 70px;
+    background: rgba(13, 13, 255, 0.77);
+border-width: 1px 1px 2.5px 1px;
+border-style: solid;
+border-color: rgba(0, 0, 0, 0.9);
+box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+font-family: 'Gill Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 32px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+color: #EEEEEE;
+min-width: 100px;
+max-width: 300px;
+}
+.signInForm button:hover{
+    background: rgba(77, 0, 255, 0.9);
+    font-size: 30px;
+    color: #fff;
+    
+}
+.notRegistered{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+
+color: #111;
+    margin-top:-60px;
+    margin-left: 33%;
+    width: 33%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.signUp{
+    margin-left: 44%;
+    margin-top: 38px;
+    width: 11%;
+    min-width: 100px;
+    max-width: 300px;
+    height: 70px;
+    background: rgba(13, 13, 255, 0.6);
+border-width: 1px 1px 2.5px 1px;
+border-style: solid;
+border-color: rgba(0, 0, 0, 0.9);
+box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+font-family: 'Gill Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 32px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+color: #EEEEEE;
+margin-bottom: 18%;
+
+    
+}
+.signUp:hover{
+    background: rgba(77, 0, 255, 0.9);
+    font-size: 30px;
+    color: #fff;
+    
+}
+.FAndLName{
+   display: flex; 
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.fName{
+    width: 45%;
+    
+    min-width: 120px;
+    max-width: 400px;
+   
+height: 58px;
+margin-top: 26px;
+
+background: rgba(255, 255, 255, 0.25);
+border-width: 1px 1px 2px 1px;
+border-style: solid;
+border-color: rgba(0, 0, 0, 0.7);
+border-radius: 10px;
+font-family: 'Gill Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 32px;
+display: flex;
+align-items: center;
+
+}
+
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: rgba(128, 0, 107, 0.7);
+  color: rgba(0, 0, 0, 0.70);
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 180px;
+  font-size: 18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-radius: 10px;
+}
+.open-button:hover{
+    background-color:rgba(0, 128, 0, 0.25);
+    color: #DDDDDD;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+  border-radius: 8px;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: #E2E2FF;
+  border-radius: 9px;
+  font-size: 14px;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #E2E2FF;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: rgba(188, 233, 255, 0.893);
+  outline: none;
+  border-radius: 8px;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #0D0DFF;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+  font-size: 16px;
+}
